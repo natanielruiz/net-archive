@@ -1,0 +1,17 @@
+net: "models/VGGNet/VOC2012ext/VGG_VOC2012ext.prototxt"
+test_iter: 1449
+test_interval: 2000
+eval_type: "segmentation"
+display: 20
+average_loss: 20
+lr_policy: "poly"
+power: 0.9
+base_lr: 1e-8
+momentum: 0.9
+iter_size: 8
+max_iter: 20000
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "models/VGGNet/VOC2012ext/VGG_VOC2012ext"
+test_initialization: false
+debug_info: false
